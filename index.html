@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
 <head>
     <meta charset="utf-8">
     <title>Git Commands</title>
@@ -9,12 +10,54 @@
 
 <body>
     <header>
+        <h1>Git Commands Cheatsheet</h1>
     </header>
 
     <aside>
+        <h2>Commands</h2>
+        <ul>
+            <li>git clone</li>
+            <li>git status</li>
+            <li>git add</li>
+            <li>git commit -m</li>
+            <li>git push</li>
+        </ul>
+
     </aside>
 
     <main>
+        <p><a href="https://www.hostinger.com/tutorials/basic-git-commands">This website</a> is helpful.</p>
+        <div id="clone">
+            <h2>git clone</h2>
+            <p>With git clone I can clone a git repository into my computer's folder structure. 
+                <br>
+                Example: git clone https://github.com/JessNap/git-cheatsheet.git</p>
+        </div>
+
+        <div id="status">
+            <h2>git status</h2>
+            <p>With git status I can see the current status of my code. It will show unsaved files in red and saved
+                files in green.</p>
+        </div>
+
+        <div id="add">
+            <h2>git add</h2>
+            <p>With git add I can add files to the staging area. If I add a fullstop "." at the end everything in the
+                folder will be added.</p>
+        </div>
+
+        <div id="commit">
+            <h2>git commit</h2>
+            <p>With git commit -m I will create a snapshot of the changes I have made and save it to the git directory.
+                <br>
+                Example: git commit -m "Message to go with the commit here"</p>
+        </div>
+
+        <div id="push">
+            <h2>git push</h2>
+            <p>With git push I send local commits to the repository on git./p>
+        </div>
+
     </main>
 
     <footer>
